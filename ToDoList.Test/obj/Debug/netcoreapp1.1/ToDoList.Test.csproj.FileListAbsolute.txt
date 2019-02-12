@@ -2,3 +2,16 @@ C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\obj\Debug\netcoreapp1
 C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\obj\Debug\netcoreapp1.1\ToDoList.Test.csproj.CoreCompileInputs.cache
 C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\obj\Debug\netcoreapp1.1\ToDoList.Test.AssemblyInfoInputs.cache
 C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\obj\Debug\netcoreapp1.1\ToDoList.Test.AssemblyInfo.cs
+C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\bin\Debug\netcoreapp1.1\ToDoList.Test.deps.json
+C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\bin\Debug\netcoreapp1.1\ToDoList.Test.runtimeconfig.json
+C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\bin\Debug\netcoreapp1.1\ToDoList.Test.runtimeconfig.dev.json
+C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\bin\Debug\netcoreapp1.1\ToDoList.Test.dll
+C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\bin\Debug\netcoreapp1.1\ToDoList.Test.pdb
+C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\bin\Debug\netcoreapp1.1\ToDoList.dll
+C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\bin\Debug\netcoreapp1.1\ToDoList.pdb
+C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\obj\Debug\netcoreapp1.1\ToDoList.Test.csproj.CopyComplete
+C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\obj\Debug\netcoreapp1.1\ToDoList.Test.dll
+C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList.Test\obj\Debug\netcoreapp1.1\ToDoList.Test.pdb
