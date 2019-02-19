@@ -7,3 +7,5 @@ C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList\obj\Debug\netcoreapp1.1\To
 C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList\obj\Debug\netcoreapp1.1\ToDoList.AssemblyInfo.cs
 C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList\obj\Debug\netcoreapp1.1\ToDoList.dll
 C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList\obj\Debug\netcoreapp1.1\ToDoList.pdb
+C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList\bin\Debug\netcoreapp1.1\ToDoList.runtimeconfig.json
+C:\Users\Dave\source\repos\ToDoList.Solution\ToDoList\bin\Debug\netcoreapp1.1\ToDoList.runtimeconfig.dev.json
