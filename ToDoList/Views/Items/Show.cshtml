@@ -1,8 +1,34 @@
-<h1>To Do List Item Details:</h1>
+@using ToDoList.Models;
+<h1>To Do List</h1>
+<h2>Item: @Model["item"].GetDescription()</h2>
+<hr />
+
+@if(@Model["itemCategories"].Count!=0)
+{
+    <h4>This item has these categories:</h4>
+    <ul>
+        @foreach (Category category in @Model["itemCategories"])
+        {
+            <li>@category.GetName()</li>
+        }
+    </ul>
+}
+
+
+<h4>Add a category to this item:</h4>
+
+<form action='/items/@Model["item"].GetId()/categories/new' method="post">
+    <label for="categoryId">Select a category</label>
+    <select id="categoryId" name="categoryId" type="text">
+        @foreach(var category in @Model["itemCategories"])
+        {
+            <option value="@category.GetId()">@category.GetName()</option>
+        }
+    </select>
+    <button type="submit">Submit</button>
+</form>
 
 <h2>@Model["item"].GetDescription()</h2>
-<h3>Category: @Model["category"].GetName()</h3>
 
-<a href = '/categories/@Model["category"].GetId()/items/@Model["item"].GetId()/edit'>Edit this item</a>
-<a href='/categories/@Model["category"].GetId()/items/new'>Add another item</a>
+
 <a href="/categories">View all categories</a>

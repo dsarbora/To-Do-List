@@ -35,24 +35,23 @@ namespace ToDoList.Controllers
             Dictionary<string, object> model = new Dictionary<string,object>();
             Category selectedCategory = Category.Find(id);
             List<Item> categoryItems = selectedCategory.GetItems();
+            List<Item> allItems = Item.GetAll();
             model.Add("category", selectedCategory);
             model.Add("items", categoryItems);
+            model.Add("allItems", allItems);
             return View(model);
         }
 
-        [HttpPost("/categories/{categoryId}/items")]
-        public ActionResult Create(int categoryId, string itemDescription)
+        [HttpPost("categories/{categoryId}/items/new")]
+        public ActionResult AddItem(int itemId, int categoryId)
         {
-            Dictionary<string, object> model = new Dictionary<string, object>();
-            Category foundCategory = Category.Find(categoryId);
-            Item newItem = new Item(itemDescription,1);
-            newItem.Save();
-            List<Item> categoryItems = foundCategory.GetItems();
-            model.Add("category", foundCategory);
-            model.Add("items", categoryItems);
-            // CREATES NEW *ITEM* IN A CATEGORY, HAS A DISTINCT PATH FROM CATEGORY CREATOR
-            return RedirectToAction("Index", model);
+            Category category = Category.Find(categoryId);
+            Item item = Item.Find(itemId);
+            category.AddItem(item);
+            return RedirectToAction("Show", new{id=categoryId});
         }
+
+
         
         
     }

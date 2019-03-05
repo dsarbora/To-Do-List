@@ -1,5 +1,6 @@
 <h3>Here are all the items in this category:</h3>
 
+
 <ol>
 @foreach(var item in @Model["items"])
 {
@@ -9,5 +10,15 @@
 </ol>
 
 <p><a href='/categories/@Model.["category"].GetId()/items/new'>Add a new Item</a></p>
+<form action='/categories/@Model["category"].GetId()/items/new' method="post">
+    <label for="itemId">Select an Item</label>
+    <select id='itemId' name='itemId' type='text'>
+        @foreach (var item in Model["items"])
+        {
+            <option value='@item.GetId()'>@item.GetDescription()</option>
+        }
+    </select>
+    <button type="submit">Submit</button>
+</form>
 <p><a href='/categories'>Return to Category List</a></p>
 <p><a href='/'>Return to Main Page</a></p>
