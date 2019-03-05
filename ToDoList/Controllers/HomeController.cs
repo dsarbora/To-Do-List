@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using ToDoList.Models;
 
 namespace ToDoList.Controllers
 {
@@ -6,7 +7,7 @@ namespace ToDoList.Controllers
     {
 
       [HttpGet("/")]
-      public ActionResult Index()  //  DAVE
+      public ActionResult Index()
       {
         return View();
       }
